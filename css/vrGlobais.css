@@ -13,6 +13,9 @@ html {
 body {
     font-size: 1.6rem;
     margin-top: 15rem;
+    background-color: #1b1b1f;
+    color: #ffff;
+    
 }
 
 ul {
@@ -27,20 +30,18 @@ a {
 h1 {
     font-size: 6.4rem;
     font-weight: 700;
-    color: var(--primary-color);
 }
 
 .secondary-title {
     font-size: 4rem;
     font-weight: 700;
-    color: var(--primary-color);
+    
 }
 
 .tertiary-title {
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 4.5rem;
-    color: var(--secundary-color);
 }
 
 p,

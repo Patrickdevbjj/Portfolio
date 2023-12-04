@@ -1,33 +1,33 @@
-header {
+.antiga__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
     scroll-margin-top: 20rem;
-  }
-  
-  header .header__left {
+
+}
+main .header__left {
     max-width: 62rem;
     flex: 1; 
-  }
-  
-  header .header__left p {
+}
+
+main .header__left p {
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
     position: relative;
-  }
-  
-  header .header__right {
+}
+
+main .header__right {
     position: relative;
     flex: 1; 
-  }
-  
-  header .header__right .header__image {
+}
+
+main .header__right .header__image {
     line-height: 0;
-  }
-  
-  header .header__right .header__image::after {
+}
+
+main .header__right .header__image::after {
     content: '';
     display: block;
     width: 100%;
@@ -38,9 +38,9 @@ header {
     right: -1.5rem;
     border-radius: 0.5rem;
     z-index: -2;
-  }
-  
-  header .header__right .header__image .patrick {
+}
+
+main .header__right .header__image .patrick {
     border-radius: 0.5rem;
     min-width: 25rem;
     max-width: 100%;
@@ -49,23 +49,22 @@ header {
     right: 0;
     width: 50%;
     height: auto;
-  }
-  
-  header .header__right .header__image .background {
+}
+
+main .header__right .header__image .background {
     position: absolute;
     top: -4rem;
     right: -2.5rem;
     z-index: -1;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    header {
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-  
-    header .header__left p {
-      margin: 2rem auto 4rem;
-    }
-  }
-  
+}
+
+@media only screen and (max-width: 768px) {
+main {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+main .header__left p {
+    margin: 2rem auto 4rem;
+}
+}
