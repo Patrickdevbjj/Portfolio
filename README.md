@@ -1,2 +1,2 @@
 # Portfolio
-Criando um portfólio como curriculo
+Criando um portfólio com HTML CSS BOOTSTRAP e JAVASCRIPT 
